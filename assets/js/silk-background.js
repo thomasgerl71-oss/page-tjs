@@ -312,6 +312,7 @@
     var presenceTarget = 0;
     var startTime = performance.now();
     var rafId = null;
+    var hasPaintedFirstFrame = false;
 
     function resize() {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -358,6 +359,15 @@
       gl.uniform4f(uCursor, presence, 2.0, 1.0, 0.8);
 
       gl.drawArrays(gl.TRIANGLES, 0, 3);
+
+      // Canvas erst einblenden, sobald der erste echte Frame gezeichnet ist —
+      // verhindert den harten Farbsprung von der CSS-Platzhalterfarbe zum
+      // animierten Verlauf, der beim Laden/Neuladen als roter Blitzer auffiel.
+      if (!hasPaintedFirstFrame) {
+        hasPaintedFirstFrame = true;
+        canvas.classList.add("is-ready");
+      }
+
       rafId = window.requestAnimationFrame(render);
     }
 
