@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Platzhalter Autorenfoto</title>
+  <desc id="desc">Ersetzen durch ein Porträtfoto von Thomas Gerl, Zielformat 4:5, mindestens 800×1000px</desc>
+  <rect width="800" height="1000" fill="#1b212a"/>
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#3a4250" stroke-width="2" stroke-dasharray="6 8"/>
+  <g fill="none" stroke="#9aa2ad" stroke-width="2">
+    <circle cx="400" cy="420" r="70"/>
+    <path d="M280 620 Q400 520 520 620 L520 660 L280 660 Z"/>
+  </g>
+  <text x="400" y="740" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" letter-spacing="1" fill="#e98276">FOTO: AUTOR</text>
+  <text x="400" y="772" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" fill="#9aa2ad">author-portrait.jpg ersetzen</text>
+  <text x="400" y="796" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" fill="#9aa2ad">Format 4:5 · min. 800×1000px</text>
+</svg>
