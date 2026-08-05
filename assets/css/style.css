@@ -638,7 +638,8 @@ body.snap-page .site-footer {
 }
 
 .book-section__title-img {
-  width: min(100%, 30rem);
+  width: 100%;
+  max-width: 30rem;
   height: auto;
   margin-bottom: var(--space-sm);
 }
