@@ -514,7 +514,7 @@ body.snap-page .site-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-    background: var(--color-bg-elevated);
+    background: #3a0a0a;
     border-bottom: 1px solid var(--color-border);
     max-height: 0;
     overflow: hidden;
@@ -540,7 +540,7 @@ body.snap-page .site-header {
   .primary-nav a:hover,
   .primary-nav a[aria-current="page"] {
     border-color: var(--color-border);
-    border-left-color: var(--color-accent);
+    border-left-color: var(--color-logo-orange);
   }
 }
 
@@ -898,11 +898,11 @@ body.snap-page .site-footer {
 
 .category-head {
   display: flex;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-sm);
 }
 
 .category-head__logo {
-  height: 15.6rem;
+  height: 6.5rem;
   width: auto;
 }
 
