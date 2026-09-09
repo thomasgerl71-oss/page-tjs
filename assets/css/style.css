@@ -216,6 +216,11 @@ p {
   max-width: 62ch;
 }
 
+p.lede {
+  margin-top: 0 0 var(--space-sm);
+  max-width: 62ch;
+}
+
 .lede {
   font-size: var(--step-1);
   color: var(--color-fg-muted);
