@@ -747,7 +747,7 @@ body.snap-page .site-footer {
 
 /* "Memorien" — Titelgrafik hat breite, transparente Ränder; Abstand kompensieren, damit der Text direkt am sichtbaren Schriftzug anschließt */
 .book-section--red .book-section__title-img {
-  margin-bottom: -1.6rem;
+  margin-bottom: 0rem;
 }
 
 /* "Rachetreiben" — Akzentfarbe des Covers (Blutrot) */
