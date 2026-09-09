@@ -216,6 +216,10 @@ p {
   max-width: 62ch;
 }
 
+p.lede {
+  margin-top: 30px;
+}
+
 .lede {
   font-size: var(--step-1);
   color: var(--color-fg-muted);
