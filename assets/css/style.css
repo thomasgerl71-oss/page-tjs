@@ -217,8 +217,7 @@ p {
 }
 
 p.lede {
-  margin-top: 0 0 var(--space-sm);
-  max-width: 62ch;
+  margin-top: 12 px;
 }
 
 .lede {
